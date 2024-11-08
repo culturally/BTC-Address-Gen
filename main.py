@@ -44,7 +44,7 @@ def get_search_patterns():
             validated_patterns = []  
 
   
-    case_sensitive = input(Fore.CYAN + "Should the search be case-sensitive? (y/n): ").lower() == 'y'
+    case_sensitive = input(Fore.YELLOW + "Should the search be case-sensitive? (y/n): ").lower() == 'y'
     return validated_patterns, case_sensitive
 
 
