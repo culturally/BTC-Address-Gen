@@ -164,7 +164,7 @@ if __name__ == "__main__":
     else:
         try:
             print()
-            num_workers = int(input(Fore.WHITE + "Enter the number of workers (10 recommended): "))
+            num_workers = int(input(Fore.YELLOW + "Enter the number of workers (10 recommended): "))
             os.system('cls||clear')
             if num_workers <= 0:
                 print(Fore.YELLOW + "Invalid number. Using the recommended 10 workers.")
