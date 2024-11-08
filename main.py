@@ -43,8 +43,8 @@ def get_search_patterns():
             print(Fore.YELLOW + "Please enter valid patterns again (e.g., '1Example' or 'bc1Example').")
             validated_patterns = []  
 
-  
-    case_sensitive = input(Fore.YELLOW + "Should the search be case-sensitive? (y/n): ").lower() == 'y'
+    print()
+    case_sensitive = input(Fore.YELLOW + "Should the search be case-sensitive? (y/n): " + Fore.WHITE).lower() == 'y'
     return validated_patterns, case_sensitive
 
 
@@ -164,7 +164,7 @@ if __name__ == "__main__":
     else:
         try:
             print()
-            num_workers = int(input(Fore.YELLOW + "Enter the number of workers (10 recommended): "))
+            num_workers = int(input(Fore.YELLOW + "Enter the number of workers (10 recommended): " + Fore.WHITE))
             os.system('cls||clear')
             if num_workers <= 0:
                 print(Fore.YELLOW + "Invalid number. Using the recommended 10 workers.")
