@@ -34,5 +34,6 @@ Each generated address comes with a corresponding private key. The tool uses sec
 
 ## Pictures
 
-![{C4BE66F1-2E45-4084-AC8C-83FDBFCCEDCF}](https://github.com/user-attachments/assets/888d7e96-c128-4499-9c29-34ae9c63e9ab)
+![{97F2FEA9-EC26-4F7D-9D06-6D0883777FA4}](https://github.com/user-attachments/assets/95e9596d-459d-493e-9c17-0c292184c116)
+
 
