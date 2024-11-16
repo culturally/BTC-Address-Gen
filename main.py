@@ -14,7 +14,7 @@ def get_search_patterns():
     print()
     print(Fore.WHITE + "Enter custom Bitcoin address patterns (separate with commas if multiple).")
     print()
-    print(Fore.YELLOW + "Example patterns:" + Fore.WHITE + " 1Example, bc1Example")
+    print(Fore.YELLOW + "Example patterns:" + Fore.WHITE + " 1Example, 1Hello")
     print()
 
     validated_patterns = []
@@ -40,7 +40,7 @@ def get_search_patterns():
             for invalid in invalid_patterns:
                 print(Fore.RED + f"  '{invalid}': Patterns must start with '1' or 'bc1'.")
                 print()
-            print(Fore.YELLOW + "Please enter valid patterns again (e.g., '1Example' or 'bc1Example').")
+            print(Fore.YELLOW + "Please enter valid patterns again (e.g., '1Example' or '1Hello').")
             validated_patterns = []  
 
     print()
