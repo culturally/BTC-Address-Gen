@@ -30,6 +30,7 @@ Each generated address comes with a corresponding private key. The tool uses sec
 ## Info
 - After an address is found it will save it in address.json with address, private key, wif, pubkey, pattern, timestamp
 - If you have low performance PC or do not have time for searching you message me and I will search it for you.
+- P2PKH Only, Bench32 will come later (bc1)
 
 ## Pictures
 
